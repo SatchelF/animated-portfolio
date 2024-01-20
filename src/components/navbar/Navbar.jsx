@@ -6,7 +6,7 @@ const Navbar = () => {
     <div className="navbar">
         <Sidebar/>
         <div className="wrapper">
-            <span>SATCHEL FAUSETT</span>
+            <span>My Portfolio</span>
             <div className="social">
                 <a href="#"><img src="/github.png" alt="" /></a>
                 <a href="#"><img src="/instagram.png" alt="" /></a>
