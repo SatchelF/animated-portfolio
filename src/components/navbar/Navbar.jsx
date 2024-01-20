@@ -1,10 +1,12 @@
+import Sidebar from "../sidebar/sidebar"
 import "./navbar.scss"
 
 const Navbar = () => {
     return (
     <div className="navbar">
+        <Sidebar/>
         <div className="wrapper">
-            <span>Satchel Fausett</span>
+            <span>SATCHEL FAUSETT</span>
             <div className="social">
                 <a href="#"><img src="/github.png" alt="" /></a>
                 <a href="#"><img src="/instagram.png" alt="" /></a>
