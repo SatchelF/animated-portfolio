@@ -6,7 +6,6 @@ const items = [
     "Services",
     "Portfolio",
     "Contact",
-    "About",
 ]
 
 const variants={
