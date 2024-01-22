@@ -44,6 +44,7 @@
 
             img{
                 width: 50px;
+                
 
             }
 
@@ -54,8 +55,12 @@
         height: 100%;
         position: absolute;
         top: 0;
-        right: 0;
-
+        right: 280px;
+        
+        img{
+            max-width: 600px;
+            max-height: 1200px; 
+        } 
     }
 
     .slidingTextContainer{
