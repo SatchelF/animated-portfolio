@@ -14,7 +14,7 @@ const items = [
         id:2,
         title: "Dans Auto Barn",
         img: "https://images.pexels.com/photos/1592384/pexels-photo-1592384.jpeg?auto=compress&cs=tinysrgb&w=600",
-        desc: "DriveRentals is an innovative mock car rental website, leveraging the seamless integration of React's dynamic front-end and Django's robust back-end. It offers users a streamlined experience for renting cars, featuring an intuitive interface for vehicle selection and booking. Additionally, it includes a comprehensive management system for car owners to list vehicles and for admins to oversee employee information, ensuring efficient operation and user convenience.",
+        desc: "DriveRentals is an innovative mock car rental website. Additionally, it includes a comprehensive management system for car owners to list vehicles and for admins to oversee employee information, ensuring efficient operation and user convenience.",
         demo:"https://github.com/SatchelF/Auto-Shop",
         location:"View Code"
     },
@@ -22,7 +22,7 @@ const items = [
         id:3,
         title: "Spy Chat Website",
         img: "https://images.pexels.com/photos/5935791/pexels-photo-5935791.jpeg?auto=compress&cs=tinysrgb&w=600",
-        desc: "SpyChat is an innovative chat application that blends React's dynamic UI with SocketIO's real-time communication, all powered by an Express server. It features encrypted messaging, where users encrypt and decrypt messages using a shared passphrase, ensuring secure and private conversations. This project offers a unique and interactive way to experience web development and encryption.",
+        desc: "A chat application that blends React's dynamic UI with SocketIO's real-time communication, all powered by an Express server. It features encrypted messaging, where users encrypt and decrypt messages using a passphrase. This project offers a unique and interactive way to experience web development and encryption.",
         demo:"https://github.com/SatchelF",
         location:"View Code"
     },
