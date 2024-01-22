@@ -37,54 +37,44 @@ const Services = () => {
         </div>
         <div className="title">
             <h1><motion.b whileHover={{color: "orange"}}>For Your</motion.b> Business</h1>
-            <button>WHAT WE DO?</button>
+            <button>WHAT I DO?</button>
         </div>
 
      </motion.div>
      <motion.div className="listContainer" variants={variants} initial="initial" animate="animate">
         <motion.div className="box" whileHover={{background:"lightgray", color:"black"}}>
-            <h2>Branding</h2>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                Aenean finibus sem a eros malesuada vestibulum. 
-                Donec lacinia turpis quis neque malesuada feugiat.
-                Mauris ac nibh commodo, sodales nisl et, congue justo.
-                Ut accumsan tempus consectetur.
+            <h2>Web Dev and Design</h2>
+            
+            <p style={{paddingTop: "10px"}}>
+            Specializing in creating visually appealing and functional websites, I use technologies like Angular, React, and JavaScript to deliver user-friendly, responsive, and performance-optimized web solutions. Whether for business, e-commerce, or personal blogs, my focus is on crafting sites that meet and exceed your unique requirements.
             </p>
-            <button>GO</button>
+            {/* <button>GO</button> */}
         </motion.div>
         <motion.div className="box" whileHover={{background:"lightgray", color:"black"}}>
-            <h2>Branding</h2>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                Aenean finibus sem a eros malesuada vestibulum. 
-                Donec lacinia turpis quis neque malesuada feugiat.
-                Mauris ac nibh commodo, sodales nisl et, congue justo.
-                Ut accumsan tempus consectetur.
+            <h2>Android App Development</h2>
+            <p style={{paddingTop: "10px"}}>
+            With expertise in Android app development using Kotlin,
+             I offer custom mobile app solutions that combine sleek
+              design with efficient functionality. My approach involves
+               crafting intuitive and engaging user experiences optimized
+                for Android devices, ensuring that your app not only looks
+                 great but also performs seamlessly on a wide range of devices.
             </p>
-            <button>GO</button>
+            {/* <button>GO</button> */}
         </motion.div>
         <motion.div className="box" whileHover={{background:"lightgray", color:"black"}}>
-            <h2>Branding</h2>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                Aenean finibus sem a eros malesuada vestibulum. 
-                Donec lacinia turpis quis neque malesuada feugiat.
-                Mauris ac nibh commodo, sodales nisl et, congue justo.
-                Ut accumsan tempus consectetur.
+            <h2>Software Engineering</h2>
+            <p style={{paddingTop: "10px"}}>
+            As a software engineer with a strong foundation in Object-Oriented Programming (OOP), I provide comprehensive development services. Utilizing languages like Python, Java, and C#, I develop scalable, maintainable, and efficient software solutions. My expertise in OOP ensures the creation of robust applications with modular and reusable code.
             </p>
-            <button>GO</button>
+            {/* <button>GO</button> */}
         </motion.div>
         <motion.div className="box" whileHover={{background:"lightgray", color:"black"}}>
-            <h2>Branding</h2>
+            <h2>Backend Solutions</h2>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                Aenean finibus sem a eros malesuada vestibulum. 
-                Donec lacinia turpis quis neque malesuada feugiat.
-                Mauris ac nibh commodo, sodales nisl et, congue justo.
-                Ut accumsan tempus consectetur.
+            I specialize in backend development, offering solutions that include database management, server-side scripting, and API integration. Using technologies like Django, AWS, and MySQL, I build secure, efficient, and scalable backend architectures that support the smooth functioning of your applications and platforms.
             </p>
-            <button>GO</button>
+            {/* <button>GO</button> */}
         </motion.div>
      </motion.div>
     </motion.div>;
