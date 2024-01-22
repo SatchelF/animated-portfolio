@@ -70,7 +70,7 @@
       }
 
       h1 {
-        font-size: 96px;
+        font-size: 70px;
         font-weight: 100;
 
         @include mobile {
@@ -79,8 +79,8 @@
       }
 
       button {
-        width: 300px;
-        height: 100px;
+        width: 200px;
+        height: 75px;
         border-radius: 50px;
         background-color: orange;
         border: none;
@@ -107,7 +107,7 @@
     }
 
     .box {
-      padding: 50px;
+      padding: 30px;
       border: 0.5px solid gray;
       display: flex;
       flex-direction: column;
@@ -119,6 +119,11 @@
         gap: 20px;
         padding: 10px;
       }
+
+      h2{
+        font-size: 20px;
+      }
+
 
       p {
         @include mobile {
